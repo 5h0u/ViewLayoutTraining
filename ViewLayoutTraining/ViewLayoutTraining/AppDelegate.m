@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "BaseViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds ]];
+    self.baseviewcontroller = [BaseViewController alloc];
+    self.window.rootViewController = self.baseviewcontroller;
+    [self.window makeKeyWindow];
     // Override point for customization after application launch.
     return YES;
 }
