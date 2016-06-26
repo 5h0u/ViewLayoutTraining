@@ -10,4 +10,8 @@
 
 @interface SerifView : UIView
 
+@property(weak, nonatomic)IBOutlet UILabel *serifLabel;
+
+@property(weak, nonatomic) UIImage *expImage;
+
 @end

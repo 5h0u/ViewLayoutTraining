@@ -10,6 +10,18 @@
 
 @implementation CharcterTypeView
 
+- (void)title:(NSString *) title{
+    _titleLabel.text = title;
+}
+
+- (void)firstWord:(NSString *)word{
+    _firstWordLabel.text = word;
+}
+
+- (void)secondWord:(NSString *)word{
+    _secondWordLabel.text = word;
+}
+
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.

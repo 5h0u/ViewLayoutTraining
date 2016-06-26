@@ -10,4 +10,10 @@
 
 @interface CharcterTypeView : UIView
 
+@property (weak, nonatomic)IBOutlet UILabel *titleLabel;
+
+@property (weak, nonatomic)IBOutlet UILabel *firstWordLabel;
+
+@property (weak, nonatomic)IBOutlet UILabel *secondWordLabel;
+
 @end

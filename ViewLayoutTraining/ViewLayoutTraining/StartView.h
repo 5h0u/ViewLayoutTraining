@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface StartView : UIView
+@interface StartView : UIButton
+
+@property (weak, nonatomic)IBOutlet UIButton *startButton;
 
 @end

@@ -10,4 +10,6 @@
 
 @interface BaseView : UIView
 
+@property (weak, nonatomic) IBOutlet UIButton *startButton;
+
 @end
