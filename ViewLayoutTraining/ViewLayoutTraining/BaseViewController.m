@@ -7,6 +7,9 @@
 //
 
 #import "BaseViewController.h"
+#import "BaseView.h"
+#import "SerifView.h"
+#import "CharcterTypeView.h"
 
 @interface BaseViewController ()
 
@@ -16,6 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+     
     // Do any additional setup after loading the view.
 }
 

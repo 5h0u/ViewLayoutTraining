@@ -1,5 +1,5 @@
 //
-//  BaseView.h
+//  StartView.h
 //  ViewLayoutTraining
 //
 //  Created by 山崎祥太郎 on 2016/06/24.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BaseView : UIView
+@interface StartView : UIButton
 
-@property (weak, nonatomic) IBOutlet UIButton *startButton;
+@property (weak, nonatomic)IBOutlet UIButton *startButton;
 
 @end

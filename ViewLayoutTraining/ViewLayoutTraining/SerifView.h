@@ -1,5 +1,5 @@
 //
-//  BaseView.h
+//  SerifView.h
 //  ViewLayoutTraining
 //
 //  Created by 山崎祥太郎 on 2016/06/24.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BaseView : UIView
+@interface SerifView : UIView
 
-@property (weak, nonatomic) IBOutlet UIButton *startButton;
+@property(weak, nonatomic)IBOutlet UILabel *serifLabel;
+
+@property(weak, nonatomic) UIImage *expImage;
 
 @end
